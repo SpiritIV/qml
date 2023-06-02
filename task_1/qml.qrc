@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>YourData.qml</file>
+        <file>SearchFor.qml</file>
+    </qresource>
+</RCC>
