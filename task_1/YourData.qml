@@ -8,8 +8,10 @@ Item {
     property string gender_id: _gender.currentIndex
     property string age: _age.text
     property string edu: _edu_group.checkedButton.text
-//    property list<Item> hobby: _group_box.contentChildren
+    property list<Item> hobby
     property string about: _about.text
+
+    Component.onCompleted: hobby = _grid_hobbies.children
 
 //    implicitHeight: 500
 //    implicitWidth: 800
@@ -299,6 +301,8 @@ Item {
                     text: "Golf"
                 }
             }
+
+
         }
 
         Label

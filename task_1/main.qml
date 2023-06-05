@@ -94,11 +94,11 @@ Window {
 
         result = "Hobbies: "
 
-        for (var i = 0; i < hobbies.size; i+=1)
+        for (var i = 0; i < hobbies.length; ++i)
         {
-            if (hobbies.at(i).isChecked())
+            if (hobbies[i].checked)
             {
-                result += hobbies.at(i).text
+                result += hobbies[i].text
                 result += "\n"
             }
         }
